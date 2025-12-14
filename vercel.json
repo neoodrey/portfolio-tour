@@ -1,0 +1,32 @@
+{
+    "rewrites": [
+      {
+        "source": "/codechum",
+        "destination": "/codechum.html"
+      },
+      {
+        "source": "/matatech",
+        "destination": "/matatech.html"
+      },
+      {
+        "source": "/rivanit",
+        "destination": "/rivanit.html"
+      },
+      {
+        "source": "/sidetrips",
+        "destination": "/sidetrips.html"
+      },
+      {
+        "source": "/tarsier",
+        "destination": "/tarsier.html"
+      },
+      {
+        "source": "/worldtech",
+        "destination": "/worldtech.html"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      }
+    ]
+  }
