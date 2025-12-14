@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChum Tour Photos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <a href="index.html#tours" class="logo">← Back</a>
+</header>
+
+<section class="projects">
+    <h2 class="heading">CodeChum</h2>
+
+    <div class="gallery gallery-grid">
+        <img src="images/codechum1.jpg">
+        <img src="images/codechum2.jpg">
+        <img src="images/codechum3.jpg">
+        <img src="images/codechum4.jpg">
+    </div>
+
+    <div class="gallery-description">
+        <p>
+            CodeChum is a dynamic and engaging educational platform designed to enhance programming 
+            skills through hands-on activities, interactive challenges, and real-world problem solving. 
+            During our tour, we were able to explore how CodeChum supports students, schools, and 
+            educators by providing tools that make learning coding more accessible and enjoyable.
+            <br><br>
+            We learned about their dedication to promoting digital literacy and fostering a fun yet 
+            productive learning environment. Their modern approach to education—combining technology, 
+            creativity, and gamified learning—showcases their commitment to shaping future-ready 
+            programmers.
+            <br><br>
+            We are truly grateful and fortunate to have visited CodeChum. The experience gave us 
+            meaningful insights into how interactive learning platforms are transforming the way 
+            programming is taught, inspiring us to continue improving our own skills in the field of IT.
+        </p>
+    </div>
+
+</section>
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img">
+    <div class="lightbox-controls">
+        <button id="prevBtn">❮</button>
+        <button id="nextBtn">❯</button>
+    </div>
+</div>
+<script src="lightbox.js"></script>
+
+<script>
+ScrollReveal().reveal('.gallery img', { interval: 150, origin: 'bottom' });
+</script>
+
+</body>
+</html>

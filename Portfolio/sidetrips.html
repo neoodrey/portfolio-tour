@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Trip Photos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <a href="index.html#tours" class="logo">← Back</a>
+</header>
+
+<section class="projects">
+    <h2 class="heading">Side Trips</h2>
+
+    <div class="gallery gallery-grid">
+        <img src="images/sidetrip1.jpg">
+        <img src="images/sidetrip2.jpg">
+        <img src="images/sidetrip3.jpg">
+        <img src="images/sidetrip4.jpg">
+        <img src="images/sidetrip5.jpg">
+    </div>
+
+    <div class="gallery-description">
+        <p>
+            In addition to our company visits, we were able to enjoy several meaningful side trips that gave us
+            the opportunity to explore remarkable destinations, strengthen our bonds as a group, and create
+            lasting memories. We visited iconic places such as the Chocolate Hills, experienced a relaxing
+            river cruise, walked through the scenic Man-Made Forest, and explored historic churches in Cebu.
+            These activities provided the perfect balance between learning and leisure, allowing us to unwind
+            while appreciating the beauty and culture of each location.
+            <br><br>
+            These experiences reminded us that education extends beyond the classroom. Traveling to new
+            environments, immersing ourselves in nature and heritage sites, and sharing enjoyable moments
+            with our classmates contributed to our personal growth, teamwork, and overall inspiration
+            throughout the journey.
+            <br><br>
+            We are truly grateful for every destination we visited and every memory we created during these
+            side trips. They added joy, excitement, and a deeper sense of connection that made our entire
+            tour experience even more meaningful and unforgettable.
+        </p>
+        
+    </div>
+
+</section>
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img">
+    <div class="lightbox-controls">
+        <button id="prevBtn">❮</button>
+        <button id="nextBtn">❯</button>
+    </div>
+</div>
+<script src="lightbox.js"></script>
+
+<script>
+ScrollReveal().reveal('.gallery img', { interval: 150, origin: 'bottom' });
+</script>
+
+</body>
+</html>
