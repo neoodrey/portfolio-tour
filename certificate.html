@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <a href="index.html#tours" class="logo">← Back</a>
+</header>
+
+<section class="projects">
+    <h2 class="heading">Educational Tour Certificate</h2>
+
+    <div class="gallery gallery-grid">
+        <img src="images/certificate.jpg">
+    </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img">
+    <div class="lightbox-controls">
+        <button id="prevBtn">❮</button>
+        <button id="nextBtn">❯</button>
+    </div>
+</div>
+<script src="lightbox.js"></script>
+
+<script>
+ScrollReveal().reveal('.gallery img', { interval: 150, origin: 'bottom' });
+</script>
+
+</body>
+</html>
